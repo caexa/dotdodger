@@ -33,10 +33,10 @@ function drawText(text, x, y, size = "20px") {
 
 function spawnDot() {
   dots.push({
-    x: Math.random() * 360,
+    x: Math.random() * 380,
     y: -10,
     radius: 10,
-    speed: 2 + Math.random() * score / 50,
+    speed: 2 + Math.random() * (score / 50),
     color: "red",
   });
 }
